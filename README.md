@@ -17,12 +17,17 @@ The agent is trained on the **CarRacing-v3** environment from Gymnasium, demonst
 
 ## Training Results
 The agent successfully learns to drive in the CarRacing-v3 environment.  
-Demo video: [ppo_carracing_demo-2.mp4](./ppo_carracing_demo-2.mp4)
+
+📈 **Reward Curve:**  
+![Training Rewards](./reward-result.png)
+
+🎥 **Demo Video:**  
+[ppo_carracing_demo-2.mp4](./ppo_carracing_demo-2.mp4)
 
 ---
 
 ## File Structure
-- `PPO_j.ipynb` — Colab notebook for training & quick tests  
+- `PPO_j.ipynb` — Jupyter/Colab notebook for training & quick tests  
 - `Train-setup.py` — Core PPO training loop  
 - `Rollout-Buffer.py` — Buffer for trajectory storage and returns calculation  
 - `PPO-setup.py` — PPO agent (actor-critic, clipped updates)  
@@ -30,6 +35,7 @@ Demo video: [ppo_carracing_demo-2.mp4](./ppo_carracing_demo-2.mp4)
 - `env-setup.py` — Environment wrapper setup  
 - `PPO-config.py` — Configurations and hyperparameters  
 - `ppo_carracing_demo-2.mp4` — Demo video of trained agent  
+- `reward-result.png` — Training reward curve  
 
 ---
 
